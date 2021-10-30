@@ -1,0 +1,25 @@
+MyURL = new Array();
+MyURL[0] = new Array("https://quizgenerator.net/quizhoster/?action=play&course_id=86920&course_path=23fb2819e0e28c98e5242988bd7f4283","https://quizgenerator.net/quizhoster/?action=play&course_id=87665&course_path=3d206220a6aeb4212e277485fef33f0a"); 
+MyURL[1] = new Array("https://quizgenerator.net/quizhoster/?action=play&course_id=86921&course_path=60be17301dd69bfe4a0569edd74e769e","https://quizgenerator.net/quizhoster/?action=play&course_id=87666&course_path=b4c1e2193ec6dde6073b5dd7ae77e582");
+MyURL[2] = new Array("https://quizgenerator.net/quizhoster/?action=play&course_id=86922&course_path=edab9a8978f84a607b5641f5c3ab383b","https://quizgenerator.net/quizhoster/?action=play&course_id=87667&course_path=67abca37e1794af3bd1aec386a2ce761");
+MyURL[3] = new Array("https://quizgenerator.net/quizhoster/?action=play&course_id=87670&course_path=ef3fcd20ab8f000adbfc80e5dffe6eea","https://quizgenerator.net/quizhoster/?action=play&course_id=87669&course_path=0a9c3fba59fda65c7a5f7c8bdbb99cb1");
+MyURL[4] = new Array("https://quizgenerator.net/quizhoster/?action=play&course_id=86924&course_path=46638b57b9153ef2b32db81d3b06fc9f","https://quizgenerator.net/quizhoster/?action=play&course_id=87671&course_path=1b7030504e86e47aa5ba71fe58e479b7");
+MyURL[5] = new Array("https://quizgenerator.net/quizhoster/?action=play&course_id=86925&course_path=b47d8e2eeadc7fc1af408c3d64fd1b44","https://quizgenerator.net/quizhoster/?action=play&course_id=87672&course_path=60fefb680a1affb6a049f87d889e9cb6");
+MyURL[6] = new Array("https://quizgenerator.net/quizhoster/?action=play&course_id=86926&course_path=b16797cedfd9c5e32181fdc8d2317b09","https://quizgenerator.net/quizhoster/?action=play&course_id=87673&course_path=a19d4c8a2d75210cc267896fcbec7061");
+MyURL[7] = new Array("https://quizgenerator.net/quizhoster/?action=play&course_id=86927&course_path=f4480a2b39a0502576f214cf82a02ca6","https://quizgenerator.net/quizhoster/?action=play&course_id=87674&course_path=5148604b3c829e5cd47245dc2255e368");
+MyURL[8] = new Array("https://quizgenerator.net/quizhoster/?action=play&course_id=86928&course_path=b09da0386c736ca212a57825864acaff","https://quizgenerator.net/quizhoster/?action=play&course_id=87675&course_path=2af470ac99ddf14d8455b03ceb463ef9");
+MyURL[9] = new Array("https://quizgenerator.net/quizhoster/?action=play&course_id=86929&course_path=5bc606e427117ad77fde060a0db5bdb6","https://quizgenerator.net/quizhoster/?action=play&course_id=87676&course_path=1b08dd61fee79eb5b3a762c01faebfdf");
+MyURL[10] = new Array("https://quizgenerator.net/quizhoster/?action=play&course_id=86930&course_path=0ce52ea33cfbf160a8f51969dcb210aa","https://quizgenerator.net/quizhoster/?action=play&course_id=87677&course_path=7b2bdbdaebd67ad4815684b1b7028298");
+MyURL[11] = new Array("https://quizgenerator.net/quizhoster/?action=play&course_id=86931&course_path=29e87cbfc7a44944478a52e3044688dc","https://quizgenerator.net/quizhoster/?action=play&course_id=87678&course_path=cbc7f55c6da03887dcf500122ecec5d1");
+MyURL[12] = new Array("https://quizgenerator.net/quizhoster/?action=play&course_id=86932&course_path=49ea639c67164fa76237593fb8a9c771","https://quizgenerator.net/quizhoster/?action=play&course_id=87679&course_path=3d3c9d3e1a381b97720ed8686ab36185");
+MyURL[13] = new Array("https://quizgenerator.net/quizhoster/?action=play&course_id=86933&course_path=73891fed0a0449747c781aa8010a9f84","https://quizgenerator.net/quizhoster/?action=play&course_id=87680&course_path=da6eb0597c564ae21bf83833ac124cb6");
+MyURL[14] = new Array("https://quizgenerator.net/quizhoster/?action=play&course_id=86934&course_path=f81125a2ec81693fcf5851c9e7bd61d2","https://quizgenerator.net/quizhoster/?action=play&course_id=87681&course_path=55f06b0ce4c922e9f42198885034bf56");
+MyURL[15] = new Array("https://quizgenerator.net/quizhoster/?action=play&course_id=86935&course_path=1812821a5ebf01955c745d5733aee5ec","https://quizgenerator.net/quizhoster/?action=play&course_id=87682&course_path=3f314de7e0459c2e40384bd9413e126d");
+MyURL[16] = new Array("https://quizgenerator.net/quizhoster/?action=play&course_id=86936&course_path=82218359fb8d9e3cc428c4b476c8ceea","https://quizgenerator.net/quizhoster/?action=play&course_id=87684&course_path=cce80e77b7665a71915cb6ca94904de5");
+MyURL[17] = new Array("https://quizgenerator.net/quizhoster/?action=play&course_id=86937&course_path=42d303b3eedcfd62adb3a1a214e86a9a","https://quizgenerator.net/quizhoster/?action=play&course_id=87683&course_path=37042254847ac0721b2a050a04eeb037");
+MyURL[18] = new Array("https://quizgenerator.net/quizhoster/?action=play&course_id=86938&course_path=ac7904ae904be2774201c9bccc7e8b17","https://quizgenerator.net/quizhoster/?action=play&course_id=87685&course_path=c179894d51c850c2de9452b749fd0caa");
+MyURL[19] = new Array("https://quizgenerator.net/quizhoster/?action=play&course_id=86939&course_path=de78331c0ad1c680fbd066697f032e3b","https://quizgenerator.net/quizhoster/?action=play&course_id=87687&course_path=051d42c92f8bab9e98d7e858e1a257c7");
+function sisLink(grp){
+myRnd = Math.floor(Math.random() * MyURL[grp].length);
+location.href = MyURL[grp][myRnd];
+}

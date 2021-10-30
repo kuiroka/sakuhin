@@ -1,0 +1,239 @@
+body{
+    background: #FCFCFC;
+    user-select: none;
+    margin: 0 10px 0;
+}
+
+h1{/*見出し*/
+    text-align: center;
+    font-size: 32px;
+    background: #EEE url(data:image/gif;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAAHklEQVQImWNkYGBgYGD4//8/A5wF5SBYyAr+//8PAPOCFO0Q2zq7AAAAAElFTkSuQmCC) repeat;
+    text-shadow: 5px -5px black, 4px -4px white;
+    font-weight: bold;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    /* padding: 100px 0 0 0; */
+    margin: 0;
+}
+
+.text{
+    flex: 1;
+    font-size: 3vw;
+    display: flex;
+    position: fixed;
+    background-color: white;
+    
+}
+
+.pic{
+    margin: 5px;
+    font-size: 1.5vw;
+    list-style: none;
+}
+.pic a{
+    color: #333;
+    text-decoration: none;
+}
+
+ul {
+    display: flex;
+flex-wrap: wrap;
+}
+
+ul li img {
+max-width:100%; /*画像のはみだしを防ぐ*/
+padding:0 5px;
+width: 120px;
+height: 120px;
+display: flex;
+flex-wrap: wrap;
+}
+
+.answer{
+    margin: 0 5%;
+    padding: 0;
+}
+
+.hover {
+    width: 120px;
+    height: 120px;
+    overflow: hidden;
+    position: relative;
+}
+
+.hover .caption {
+    font-size: 30px;
+    color: #fff;
+    text-align: center;
+    padding-top: 40px;
+}
+.hover .mask {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgba(0,0,0,0.4);
+    -webkit-transition: all 0.6s ease;
+    transition:all 0.6s ease;
+}
+.hover:hover .mask {
+    -webkit-transform: scale(2);
+    transform: scale(2);
+    opacity:1;
+} 
+.copyright{
+    text-align: center;
+    padding: 16px 0 0;
+}
+
+  /*ヘッダー*/
+  header {
+    position: relative;
+    padding:0;
+    background-color: #fff;
+}
+.logo {
+    width: 140px;
+    margin: 0 auto;
+}
+.logo img {
+    max-width: 100%;
+    height: auto;
+    margin: 10px;
+}
+
+
+/*ハンバーガーアイコン*/
+.btn-burger {
+    cursor: pointer;
+    display: block;
+    width: 56px;
+    height: 60px;
+    position: absolute;
+    top: 5px;
+    right: 10px;
+}
+
+/*ハンバーガーアイコンを作る三本線*/
+.icon, .icon:before, .icon:after {
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    height: 2px; /*線の太さ*/
+    width: 35px; /*線の長さ*/
+    background-color: #444;
+    border-radius: 2px;
+    display: block;
+    content: '';
+    cursor: pointer;
+    margin: auto;
+}
+
+/*三本線の間隔*/
+.icon:before {
+  top: 20px;
+}
+.icon:after {
+  top: -20px;
+}
+
+/*チェックボックス非表示*/
+.nav-toggle {
+    display: none;
+}
+
+/*アイコンをクリックしたら*/
+.nav-toggle:checked ~ .btn-burger .icon {
+    background: transparent;
+}
+.nav-toggle:checked ~ .btn-burger .icon:before {
+    transform: rotate(-45deg);
+    top: 0;
+}
+.nav-toggle:checked ~ .btn-burger .icon:after {
+    transform: rotate(45deg);
+    top: 0;
+}
+
+.icon,
+.icon:before,
+.icon:after {
+    transition: all .8s;
+}
+
+
+/*中身*/
+.nav {
+    background-color: #444;
+    
+}
+.nav-list a {
+    display: block;
+    text-decoration: none;
+    color: #fff;
+}
+
+.nav-list {
+    list-style: none;
+    display: none;
+    margin: 0;
+    padding-left: 20px;
+}
+
+.nav-list li {
+    margin: 0;
+    padding: 10px;
+}
+
+.nav-toggle:checked ~ .nav .nav-list {
+    display: block;
+}
+
+/*メインイメージ*/
+.top {
+    height: 200px;
+    margin-bottom: 50px;
+    background-color: #f0f8ff;
+}
+
+/* --------------------------------------------------
+  幅768px以上のスタイル指定 ここから
+-------------------------------------------------- */
+@media screen and (min-width: 768px) {
+  .logo img {
+      max-width: 30%;
+      height: auto;
+      margin: 10px;
+  }
+/* ハンバーガーボタン */
+.btn-burger {
+    display: none;  /*768px以上では使用しない */
+}
+header {
+    padding: 30px 0 0;
+}
+.logo {
+    width: auto;
+    margin: 0 0 20px;
+    padding: 0;
+    text-align: center;
+}
+.nav-toggle:checked ~ .nav .nav-list {
+    display: none;
+}
+.nav {
+    height: 75px;
+}
+.nav-list {
+    display: flex;
+    justify-content: center;
+    height: 75px;
+    align-items: center;
+}
+.nav-list li:not(:last-child) {
+    border-right: 1px solid #fff;
+}
+}

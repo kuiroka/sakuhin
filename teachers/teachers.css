@@ -1,0 +1,297 @@
+body{
+    background: #FCFCFC;
+    margin: 0 10px ;
+}
+
+h1{/*見出し*/
+    text-align: center;
+    font-size: 32px;
+    background: #EEE url(data:image/gif;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAAHklEQVQImWNkYGBgYGD4//8/A5wF5SBYyAr+//8PAPOCFO0Q2zq7AAAAAElFTkSuQmCC) repeat;
+    text-shadow: 5px -5px black, 4px -4px white;
+    font-weight: bold;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text 
+}
+
+
+main{
+    margin: 10px auto;
+}
+
+/* ここから下がボタンのCSS　*/
+.btn, .data {
+    margin: 2px 1px;
+    display: inline-block;
+    width: 180px;
+    text-align: left;
+    border: 2px solid #9ec34b;
+    margin: 3px;
+    font-size:16px;
+    color: #9ec34b;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 8px 16px;
+    border-radius: 4px;
+    transition: .4s;
+  }
+  
+  .btn:hover, .data:hover {
+    background-color: #9ec34b;
+    border-color: #cbe585;
+    color: #FFF;
+  }
+
+.btn{
+    display: inline-block;
+    min-width: 100px;
+    height: 55px;
+    padding: 0 15px;
+    border-radius: 0;
+    color: #fff;
+    font-size: 14px;
+    line-height: 55px;
+    text-align: center;
+    background-color: #000000;
+    margin-left: 130px;
+}
+.btn:hover{
+    color: #fff;
+    background: #b8b8b8;
+}
+.write{/*文章*/
+    padding: 0.5em 10%;
+    margin: 0 2em 0;
+    background-color: #dadada;
+}
+footer{
+    padding: 32px 0;
+    text-align: center;
+}
+/* footer */
+.footer{
+    background-color: #dadada;
+}
+footer h2{
+    margin: 0;
+    font-weight: normal;
+    font-size: 16px;
+}
+footer img{
+    width: 280px;
+    height: 144px;
+}
+.copyright{
+    text-align: center;
+    padding: 16px 0 0;
+}
+
+textarea{
+    width: 100%;
+    height: 200px;
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+  }
+  .post{
+    border-right:none;
+    border-left:none;
+    border-top:none;
+}
+.submit{
+    border-radius: 75%;
+    width: 60%;
+    border-radius: 5px;
+padding: 15px 15px;
+color: #8ac4d0;
+border-style: none;
+background-color: #28527a;
+font-weight: bold;
+font-size: 1em;
+text-align: center;
+}
+.button{
+    text-align: right;
+}
+
+  
+  /*ヘッダー*/
+  header {
+      position: relative;
+      padding:0;
+      background-color: #fff;
+  }
+  .logo {
+      width: 140px;
+      margin: 0 auto;
+  }
+  .logo img {
+      max-width: 100%;
+      height: auto;
+      margin: 10px;
+  }
+  
+  
+  /*ハンバーガーアイコン*/
+  .btn-burger {
+      cursor: pointer;
+      display: block;
+      width: 56px;
+      height: 60px;
+      position: absolute;
+      top: 5px;
+      right: 10px;
+  }
+  
+  /*ハンバーガーアイコンを作る三本線*/
+  .icon, .icon:before, .icon:after {
+      position: absolute;
+      top: 0;
+      right: 0;
+      left: 0;
+      bottom: 0;
+      height: 2px; /*線の太さ*/
+      width: 35px; /*線の長さ*/
+      background-color: #444;
+      border-radius: 2px;
+      display: block;
+      content: '';
+      cursor: pointer;
+      margin: auto;
+  }
+  
+  /*三本線の間隔*/
+  .icon:before {
+    top: 20px;
+  }
+  .icon:after {
+    top: -20px;
+  }
+  
+  /*チェックボックス非表示*/
+  .nav-toggle {
+      display: none;
+  }
+  
+  /*アイコンをクリックしたら*/
+  .nav-toggle:checked ~ .btn-burger .icon {
+      background: transparent;
+  }
+  .nav-toggle:checked ~ .btn-burger .icon:before {
+      transform: rotate(-45deg);
+      top: 0;
+  }
+  .nav-toggle:checked ~ .btn-burger .icon:after {
+      transform: rotate(45deg);
+      top: 0;
+  }
+  
+  .icon,
+  .icon:before,
+  .icon:after {
+      transition: all .8s;
+  }
+  
+  
+  /*中身*/
+  .nav {
+      background-color: #444;
+      
+  }
+  .nav-list a {
+      display: block;
+      text-decoration: none;
+      color: #fff;
+  }
+  
+  .nav-list {
+      list-style: none;
+      display: none;
+      margin: 0;
+      padding-left: 20px;
+  }
+  
+  .nav-list li {
+      margin: 0;
+      padding: 10px;
+  }
+  
+  .nav-toggle:checked ~ .nav .nav-list {
+      display: block;
+  }
+  
+  /*メインイメージ*/
+  .top {
+      height: 200px;
+      margin-bottom: 50px;
+      background-color: #f0f8ff;
+  }
+
+.id{
+    display: none;
+}
+
+.reg{
+    border-style: solid;
+    background-color: #dadada;
+}
+.keiji{
+    border-style: solid;
+    background-color: #dadada;
+}
+
+summary{
+    font-weight: bold;
+}
+/* .alart{
+    background-color: #A9A9A9;
+    border-radius: 40%;
+}
+
+.alart-text{
+    text-align: center;
+} */
+
+
+
+
+  /* --------------------------------------------------
+    幅768px以上のスタイル指定 ここから
+  -------------------------------------------------- */
+  @media screen and (min-width: 768px) {
+    .logo img {
+        max-width: 30%;
+        height: auto;
+        margin: 10px;
+    }
+  /* ハンバーガーボタン */
+  .btn-burger {
+      display: none;  /*768px以上では使用しない */
+  }
+  header {
+      padding: 30px 0 0;
+  }
+  .logo {
+      width: auto;
+      margin: 0 0 20px;
+      padding: 0;
+      text-align: center;
+  }
+  .nav-toggle:checked ~ .nav .nav-list {
+      display: none;
+  }
+  .nav {
+      height: 75px;
+  }
+  .nav-list {
+      display: flex;
+      justify-content: center;
+      height: 75px;
+      align-items: center;
+  }
+  .nav-list li:not(:last-child) {
+      border-right: 1px solid #fff;
+  }
+  }

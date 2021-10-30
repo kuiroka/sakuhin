@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="robots" content="noindex">
+<meta name="viewport" content="width=divice-width, initial-scale=1">
+<link rel="stylesheet" href="css/word.css">
+<link rel="icon" href="../picture/icon.png">
+<title>なつみかん|単語</title>
+
+</head>
+<body>
+<header>
+    <h1 class="logo">
+        <a href="../index.php"><img src="../夏みかん.bmp" alt="なつみかん"></a>
+    </h1>
+    <div class="drawer">        
+      <input type="checkbox" name="navToggle" id="navToggle" class="nav-toggle">
+      <label for="navToggle" class="btn-burger">
+        <span class="icon"></span>            
+      </label>        
+       
+      <nav class="nav">                    
+       <ul class="nav-list">            
+        <li class="item"><a href="../index.php">ホーム</a></li>
+        <li class="item"><a href="../data/kaitou.html">解答</a></li>
+        <li class="item"><a href="word.html">単語CT</a></li>
+        <li class="item"><a href="grammer.html">文法CT</a></li>
+        <li class="item"><a href="">ブログ</a></li>
+        <li class="item"><a href="../teachers/teachers.php">講師用</a></li>
+       </ul>            
+      </nav>        
+    </div>    
+</header>
+
+<h1>Check Test(単語)</h1>
+    <div class="main">
+        <p class="write">授業用と自習用を用意してあります。</p>
+    </div>
+<main>
+    <form class="selectdiv">
+    <select onchange="rndLink(value);">
+            <option value="">英単語</option>
+        <option value="0" target="_blank" rel="noopener noreferrer" class="btn" >1~100</option>
+        <option value="1" target="_blank" rel="noopener noreferrer" class="btn" >101~200</option>
+        <option value="2" target="_blank" rel="noopener noreferrer" class="btn" >201~300</option>
+        <option value="3" target="_blank" rel="noopener noreferrer" class="btn" >301~400</option>
+        <option value="4" target="_blank" rel="noopener noreferrer" class="btn" >401~500</option>
+        <option value="5" target="_blank" rel="noopener noreferrer" class="btn" >501~600</option>
+        <option value="6" target="_blank" rel="noopener noreferrer" class="btn" >601~700</option>
+        <option value="7" target="_blank" rel="noopener noreferrer" class="btn" >701~800</option>
+        <option value="8" target="_blank" rel="noopener noreferrer" class="btn" >801~900</option>
+        <option value="9" target="_blank" rel="noopener noreferrer" class="btn" >901~1000</option>
+        <option value="10" target="_blank" rel="noopener noreferrer" class="btn" >1001~1100</option>
+        <option value="11" target="_blank" rel="noopener noreferrer" class="btn" >1101~1200</option>
+        <option value="12" target="_blank" rel="noopener noreferrer" class="btn" >1201~1300</option>
+        <option value="13" target="_blank" rel="noopener noreferrer" class="btn" >1301~1400</option>
+        <option value="14" target="_blank" rel="noopener noreferrer" class="btn" >1401~1500</option>
+        <option value="15" target="_blank" rel="noopener noreferrer" class="btn" >1501~1600</option>
+        <option value="16" target="_blank" rel="noopener noreferrer" class="btn" >1601~1700</option>
+        <option value="17" target="_blank" rel="noopener noreferrer" class="btn" >1701~1800</option>
+        <option value="18" target="_blank" rel="noopener noreferrer" class="btn" >1801~1900</option>
+    </select></form>
+    <form class="selectdiv">
+    <select onchange="sisLink(value);">
+            <option value="">英単語v2</option>
+        <option value="0" target="_blank" rel="noopener noreferrer" class="btn" >1~100</option>
+        <option value="1" target="_blank" rel="noopener noreferrer" class="btn" >101~200</option>
+        <option value="2" target="_blank" rel="noopener noreferrer" class="btn" >201~300</option>
+        <option value="3" target="_blank" rel="noopener noreferrer" class="btn" >301~400</option>
+        <option value="4" target="_blank" rel="noopener noreferrer" class="btn" >401~500</option>
+        <option value="5" target="_blank" rel="noopener noreferrer" class="btn" >501~600</option>
+        <option value="6" target="_blank" rel="noopener noreferrer" class="btn" >601~700</option>
+        <option value="7" target="_blank" rel="noopener noreferrer" class="btn" >701~800</option>
+        <option value="8" target="_blank" rel="noopener noreferrer" class="btn" >801~900</option>
+        <option value="9" target="_blank" rel="noopener noreferrer" class="btn" >901~1000</option>
+        <option value="10" target="_blank" rel="noopener noreferrer" class="btn" >1001~1100</option>
+        <option value="11" target="_blank" rel="noopener noreferrer" class="btn" >1101~1200</option>
+        <option value="12" target="_blank" rel="noopener noreferrer" class="btn" >1201~1300</option>
+        <option value="13" target="_blank" rel="noopener noreferrer" class="btn" >1301~1400</option>
+        <option value="14" target="_blank" rel="noopener noreferrer" class="btn" >1401~1500</option>
+        <option value="15" target="_blank" rel="noopener noreferrer" class="btn" >1501~1600</option>
+        <option value="16" target="_blank" rel="noopener noreferrer" class="btn" >1601~1700</option>
+        <option value="17" target="_blank" rel="noopener noreferrer" class="btn" >1701~1800</option>
+        <option value="18" target="_blank" rel="noopener noreferrer" class="btn" >1801~1900</option>
+        <option value="19" target="_blank" rel="noopener noreferrer" class="btn" >1901~2022</option>
+    </select></form>
+
+    <form class="selectdiv">
+    <select onChange="location.href=value;">
+        <option value="#">自習用(英語)</option>
+        <option value="https://forms.gle/EbwBpbFQHWqEs8qq6" target="_blank" rel="noopener noreferrer" class="btn">  1~50 </option>
+        <option value="https://forms.gle/R7FEEfritxhji6aQA" target="_blank" rel="noopener noreferrer" class="btn"> 51~100</option>
+        <option value="https://forms.gle/f7o5edfWgvzcC4Vj6" target="_blank" rel="noopener noreferrer" class="btn">101~150</option>
+        <option value="https://forms.gle/Pc67DLgy2d77vZ7m9" target="_blank" rel="noopener noreferrer" class="btn">151~200</option>
+        <option value="https://forms.gle/RJUTvb6qfy3eZf4Q9" target="_blank" rel="noopener noreferrer" class="btn">201~250 </option>
+        <option value="https://forms.gle/9oqNCcwXuNUz1ohp7" target="_blank" rel="noopener noreferrer" class="btn">251~300</option>
+        <option value="https://forms.gle/heEhqEmxecsZgPdG6" target="_blank" rel="noopener noreferrer" class="btn">301~350</option>
+        <option value="https://forms.gle/LdhPGb1aHjePHjmi7" target="_blank" rel="noopener noreferrer" class="btn">351~400</option>
+        <option value="https://forms.gle/5dC8QNc1XeeboFkVA" target="_blank" rel="noopener noreferrer" class="btn">401~450 </option>
+        <option value="https://forms.gle/4VoP1P8CMsz7MLyC8" target="_blank" rel="noopener noreferrer" class="btn">451~500</option>
+        <option value="https://forms.gle/4LCgy4Gqtyx5se677" target="_blank" rel="noopener noreferrer" class="btn">501~550</option>
+        <option value="https://forms.gle/pfehD2sNo715ueLTA" target="_blank" rel="noopener noreferrer" class="btn">551~600</option>
+        <option value="https://forms.gle/AaGFNt2Dz2HtXemd7" target="_blank" rel="noopener noreferrer" class="btn">601~650 </option>
+        <option value="https://forms.gle/4pa4bGMPBBKzEqyN7" target="_blank" rel="noopener noreferrer" class="btn">651~700</option>
+        <option value="https://forms.gle/eb1uA6sDkXASiXj58" target="_blank" rel="noopener noreferrer" class="btn">701~750</option>
+        <option value="https://forms.gle/NMD8nt24aeCmDPJy9" target="_blank" rel="noopener noreferrer" class="btn">751~800</option>
+        <option value="https://forms.gle/Bz9g9exMF53sMsTR7" target="_blank" rel="noopener noreferrer" class="btn">801~850 </option>
+        <option value="https://forms.gle/77bauknP7bMfEawPA" target="_blank" rel="noopener noreferrer" class="btn">851~900</option>
+        <option value="https://forms.gle/d174wHw4rB5HxsjA7" target="_blank" rel="noopener noreferrer" class="btn">901~950</option>
+        <option value="https://forms.gle/6mgfKadsckr9HqWC9" target="_blank" rel="noopener noreferrer" class="btn">951~1000</option>
+        <option value="https://forms.gle/egWNwG2jguvZ1sYK9" target="_blank" rel="noopener noreferrer" class="btn">1001-1050</option>
+        <option value="https://forms.gle/gMQbjgYfrii2FodT8" target="_blank" rel="noopener noreferrer" class="btn">1051-1100</option>
+        <option value="https://forms.gle/SySHRk9TjtZkF5z77" target="_blank" rel="noopener noreferrer" class="btn">1101-1150</option>
+        <option value="https://forms.gle/pCsYndtp3dfS2PS66" target="_blank" rel="noopener noreferrer" class="btn">1151-1200</option>
+        <option value="https://forms.gle/wAk1nsuVjdVvSfBY9" target="_blank" rel="noopener noreferrer" class="btn">1201-1250</option>
+        <option value="https://forms.gle/7CRNuGCDKurQeZd38" target="-blank" rel="noopener noreferrer" class="btn">1251-1300</option>
+        <option value="https://forms.gle/H3iz9yTLENTvFyF49" target="-blank" rel="noopener noreferrer" class="btn">1301-1350</option>
+        <option value="https://forms.gle/oCAF8PVtA1vWuyjs9" target="-blank" rel="noopener noreferrer" class="btn">1351-1400</option>
+        <option value="https://forms.gle/CpLgydJELnWNHo4E9" target="-blank" rel="noopener noreferrer" class="btn">1401-1450</option>
+        <option value="https://forms.gle/VHiW2ikCiMrWD5pt9" target="-blank" rel="noopener noreferrer" class="btn">1451-1500</option>
+        <option value="https://forms.gle/smyUPHdV9HwnWL6d7" target="-blank" rel="noopener noreferrer" class="btn">1501-1550</option>
+        <option value="https://forms.gle/eNkvCqnX2oJc5RF6A" target="-blank" rel="noopener noreferrer" class="btn">1551-1600</option>
+        <option value="https://forms.gle/2PeS5atTuiyri9bh6" target="-blank" rel="noopener noreferrer" class="btn">1601-1650</option>
+        <option value="https://forms.gle/DUcgs9byHnpDsAZu6" target="-blank" rel="noopener noreferrer" class="btn">1651-1700</option>
+        <option value="https://forms.gle/HpYtkJWCU13Nn2S29" target="-blank" rel="noopener noreferrer" class="btn">1701-1750</option>
+        <option value="https://forms.gle/YWjy7LFUbm2emGmR9" target="-blank" rel="noopener noreferrer" class="btn">1751-1800</option>
+        <option value="https://forms.gle/TZdE48TagCtUA6VR7" target="-blank" rel="noopener noreferrer" class="btn">1801-1850</option>
+        <option value="https://forms.gle/385irf6oQHzAK88s6" target="-blank" rel="noopener noreferrer" class="btn">1851-1900</option>
+        </select></form>
+    <form class="selectdiv">
+
+        <select onChange="location.href=value;">
+            <option value="#">古単</option>
+            <option value="https://quizgenerator.net/quizhoster/?action=play&course_id=86116&course_path=a66f4a7aeaff15eb484018f8dccac723">1~20</option>
+            <option value="https://quizgenerator.net/quizhoster/?action=play&course_id=86118&course_path=707ccedb8583234732cc896db6d136eb">21~40</option>
+            <option value="https://quizgenerator.net/quizhoster/?action=play&course_id=86120&course_path=3606ddf4ee6d26ba2ff6cda91d601aca">41~60</option>
+            <option value="https://quizgenerator.net/quizhoster/?action=play&course_id=86121&course_path=0b114afe25aac923087a2aa78872ee36">61~80</option>
+            <option value="https://quizgenerator.net/quizhoster/?action=play&course_id=86122&course_path=aa8d3d095b921a31f0c6966a7035e9c8">81~100</option>
+            <option value="https://quizgenerator.net/quizhoster/?action=play&course_id=86124&course_path=6a47c074217b5de290c9106d31820483">101~120</option>
+            <option value="https://quizgenerator.net/quizhoster/?action=play&course_id=86125&course_path=f6f662235e725d1bcdc16a381253e422">121~140</option>
+            <option value="https://quizgenerator.net/quizhoster/?action=play&course_id=86126&course_path=9c895734f3a92df9a5593cdb3df8b292">141~160</option>
+            <option value="https://quizgenerator.net/quizhoster/?action=play&course_id=86127&course_path=392bcef220ce2958adf004bb8261d70d">161~180</option>
+            <option value="https://quizgenerator.net/quizhoster/?action=play&course_id=86128&course_path=10e23c130498693cb29354262999fd67">181~200</option>
+            <option value="https://quizgenerator.net/quizhoster/?action=play&course_id=86129&course_path=4d52c2f985e21f73c71a8c0fcf7b7f45">201~220</option>
+            <option value="https://quizgenerator.net/quizhoster/?action=play&course_id=86130&course_path=8105291b223446b4735365790847e1f8">221~240</option>
+            <option value="https://quizgenerator.net/quizhoster/?action=play&course_id=86132&course_path=2446a04f300f8a4ddd1fa6540ada953e">241~260</option>
+            <option value="https://quizgenerator.net/quizhoster/?action=play&course_id=86131&course_path=77f5747d053f8e082beb0ea1a692d340">261~280</option>
+            <option value="https://quizgenerator.net/quizhoster/?action=play&course_id=86133&course_path=559088c419ba2ba7d7fe2a3157abe970">281~300</option>
+            <option value="https://quizgenerator.net/quizhoster/?action=play&course_id=86134&course_path=9720aad9a417053c97a3c18442255888">301~300</option>
+          </select></form>
+        </main>
+        <footer>
+            <hr>
+        <div>
+    <p class="copyright">Copyright©natsumikan.cram</p></div>
+    </footer>
+    <script src="target.js"></script>
+    <script src="sistem.js"></script>
+    </body>
+</html>
