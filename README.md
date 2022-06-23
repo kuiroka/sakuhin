@@ -20,6 +20,7 @@
 https://user-images.githubusercontent.com/81959723/141433101-6dda72cb-a93c-4473-b585-d1b476718599.mp4
 
 * teacher用及び管理者画面
+（本来はベーシック認証をかけております）
 
 https://user-images.githubusercontent.com/81959723/141433823-7461b0d2-e02c-47ef-afaa-c8bfec0b82a7.mp4
 
